@@ -3,6 +3,7 @@ package list_common;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+import huh.MailService;
 import sodam.ListServicesodam;
 
 public class Main {
@@ -10,10 +11,10 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		
 		ListServicesodam s = new ListServicesodam();
-		
+		MailService h =new MailService();
 		while (true) {
 			int menu = 0;
-			System.out.println("[1] ");
+			System.out.println("[1] 이메일 작성");
 			System.out.println("[2] ");
 			System.out.println("[3] 출석부 관리 ");
 			System.out.println("[4] ");
@@ -29,7 +30,7 @@ public class Main {
 			} finally {
 				switch (menu) {
 				case 1: // 하은미
-					
+					h.dip();
 					break;
 				case 2: // 방준혁
 					
