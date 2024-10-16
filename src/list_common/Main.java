@@ -4,8 +4,6 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import Na.MinimbtitestService;
 import bang.BangService;
-import java.util.Scanner;
-import Na.MinimbtitestService;
 import huh.MailService;
 import sodam.ListServicesodam;
 
@@ -15,6 +13,7 @@ public class Main {
 		ListServicesodam s = new ListServicesodam();
 		MailService h = new MailService();
 		Scanner sc = new Scanner(System.in);
+
 		BangService b = new BangService();
 		
 		boolean bool = true;
@@ -45,7 +44,7 @@ public class Main {
 					s.disp();
 					break;
 				case 4: // 김영주
-					
+
 					break;
 				case 5: // 나호영
 					na.Minimbtitest();
