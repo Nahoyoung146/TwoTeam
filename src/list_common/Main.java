@@ -2,9 +2,11 @@ package list_common;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import Na.MinimbtitestService;
 
 public class Main {
 	public static void main(String[] args) {
+		MinimbtitestService na = new MinimbtitestService();
 		Scanner sc = new Scanner(System.in);
 		while (true) {
 			int menu = 0;
@@ -12,9 +14,9 @@ public class Main {
 			System.out.println("[2] ");
 			System.out.println("[3] ");
 			System.out.println("[4] ");
-			System.out.println("[5] ");
+			System.out.println("[5] 미니 MBTI 검사 ");
 			System.out.println("[6] ");
-			System.out.print(">>>");
+			System.out.print(">>> ");
 
 			try {
 				menu = sc.nextInt();
@@ -23,20 +25,20 @@ public class Main {
 				sc = new Scanner(System.in);
 			} finally {
 				switch (menu) {
-				case 1: // 하은미
-					
+				case 1: // 허은미
+
 					break;
 				case 2: // 방준혁
-					
+
 					break;
 				case 3: // 박소담
-					
+
 					break;
 				case 4: // 김영주
-					
+
 					break;
 				case 5: // 나호영
-					
+					na.Minimbtitest();
 					break;
 				case 6:
 					System.out.println("프로그램 종료");
