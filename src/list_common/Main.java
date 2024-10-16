@@ -4,15 +4,19 @@ import java.util.InputMismatchException;
 import java.util.Scanner;
 import Na.MinimbtitestService;
 
+import sodam.ListServicesodam;
+
 public class Main {
 	public static void main(String[] args) {
 		MinimbtitestService na = new MinimbtitestService();
+		ListServicesodam s = new ListServicesodam();
 		Scanner sc = new Scanner(System.in);
+
 		while (true) {
 			int menu = 0;
 			System.out.println("[1] ");
 			System.out.println("[2] ");
-			System.out.println("[3] ");
+			System.out.println("[3] 출석부 관리 ");
 			System.out.println("[4] ");
 			System.out.println("[5] 미니 MBTI 검사 ");
 			System.out.println("[6] ");
@@ -32,7 +36,7 @@ public class Main {
 
 					break;
 				case 3: // 박소담
-
+					s.disp();
 					break;
 				case 4: // 김영주
 
