@@ -36,18 +36,18 @@ public class MinimbtitestService {
 				System.out.println("4. 나는 계획적이다.");
 				char ch4 = sc.next().charAt(0);
 				break;
-			case 3:
-				if(ch1==y) {
-					
-				}
-				break;
-			case 4:
-				break;
-			case 5:
-				System.out.println("메인메뉴로 나갑니다.");
-				break;
-			default:
-				System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
+//			case 3:
+//				if(ch1==y) {
+//					
+//				}
+//				break;
+//			case 4:
+//				break;
+//			case 5:
+//				System.out.println("메인메뉴로 나갑니다.");
+//				break;
+//			default:
+//				System.out.println("잘못된 입력입니다. 다시 입력해주세요.");
 
 			}
 		}
